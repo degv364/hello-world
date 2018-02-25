@@ -1,0 +1,3 @@
+ test_print_hello_world(){
+   assert_equals "Hello World" "$(../hello_world.sh)" 
+}
